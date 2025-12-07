@@ -1,0 +1,391 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+    "name": "Aurora Nocturne Soft",
+    "author": "Aurora Themes",
+    "semanticClass": "theme.aurora-nocturne-soft",
+    "semanticHighlighting": true,
+    "colors": {
+        // ТЕРМИНАЛ (16 ANSI цветов + фон/передний план) - Мягкие версии
+        "terminal.background": "#141829",
+        "terminal.foreground": "#d4e4f7",
+        "terminal.ansiBlack": "#0f1421",
+        "terminal.ansiRed": "#c45a96",
+        "terminal.ansiGreen": "#00d4b8",
+        "terminal.ansiYellow": "#e8f0ff",
+        "terminal.ansiBlue": "#4a9bd1",
+        "terminal.ansiMagenta": "#7a25d1",
+        "terminal.ansiCyan": "#00d4b8",
+        "terminal.ansiWhite": "#d4e4f7",
+        "terminal.ansiBrightBlack": "#6b7a9f",
+        "terminal.ansiBrightRed": "#e66bb5",
+        "terminal.ansiBrightGreen": "#40e6c7",
+        "terminal.ansiBrightYellow": "#f0f6ff",
+        "terminal.ansiBrightBlue": "#6bb8e0",
+        "terminal.ansiBrightMagenta": "#9a4de8",
+        "terminal.ansiBrightCyan": "#6bb8e0",
+        "terminal.ansiBrightWhite": "#f8f8ff",
+
+        // ОСНОВНЫЕ ЭЛЕМЕНТЫ ИНТЕРФЕЙСА - Мягче
+        "focusBorder": "#00d4b8",
+        "foreground": "#d4e4f7",
+        "selection.background": "#00d4b830",
+        "errorForeground": "#c45a96",
+
+        // КНОПКИ И ЭЛЕМЕНТЫ УПРАВЛЕНИЯ - Приглушенные
+        "button.background": "#7a25d1",
+        "button.foreground": "#e8f0ff",
+        "button.hoverBackground": "#8a35e1",
+        "button.secondaryBackground": "#4a9bd1",
+        "button.secondaryForeground": "#141829",
+        "button.secondaryHoverBackground": "#5aa5db",
+        "dropdown.background": "#1a1f2e",
+        "dropdown.border": "#6b7a9f",
+        "dropdown.foreground": "#d4e4f7",
+
+        // ПОЛЯ ВВОДА - Мягче
+        "input.background": "#1a1f2e",
+        "input.foreground": "#d4e4f7",
+        "input.border": "#6b7a9f",
+        "input.placeholderForeground": "#6b7a9f",
+        "inputOption.activeBorder": "#00d4b8",
+        "inputValidation.infoBorder": "#4a9bd1",
+        "inputValidation.warningBorder": "#e8f0ff",
+        "inputValidation.errorBorder": "#c45a96",
+
+        // ЗНАЧКИ И ПРОГРЕСС
+        "badge.foreground": "#141829",
+        "badge.background": "#00d4b8",
+        "progressBar.background": "#7a25d1",
+
+        // СПИСКИ - Мягче
+        "list.activeSelectionBackground": "#00d4b815",
+        "list.activeSelectionForeground": "#e8f0ff",
+        "list.dropBackground": "#7a25d120",
+        "list.focusBackground": "#00d4b810",
+        "list.highlightForeground": "#00d4b8",
+        "list.hoverBackground": "#1a1f2e10",
+        "list.inactiveSelectionBackground": "#6b7a9f10",
+        "list.warningForeground": "#e8f0ff",
+        "list.errorForeground": "#c45a96",
+
+        // ПАНЕЛЬ АКТИВНОСТИ - Мягче
+        "activityBar.background": "#0f1421",
+        "activityBar.inactiveForeground": "#6b7a9f",
+        "activityBar.foreground": "#00d4b8",
+        "activityBar.activeBorder": "#00d4b8",
+        "activityBar.activeBackground": "#00d4b808",
+        "activityBarBadge.background": "#7a25d1",
+        "activityBarBadge.foreground": "#e8f0ff",
+
+        // БОКОВАЯ ПАНЕЛЬ - Мягче
+        "sideBar.background": "#1a1f2e",
+        "sideBarTitle.foreground": "#d4e4f7",
+        "sideBarSectionHeader.background": "#0f1421",
+        "sideBarSectionHeader.border": "#6b7a9f15",
+        "sideBarSectionHeader.foreground": "#a8b8d0",
+
+        // ГРУППЫ РЕДАКТОРОВ И ВКЛАДКИ - Мягче
+        "editorGroup.border": "#6b7a9f15",
+        "editorGroup.dropBackground": "#7a25d115",
+        "editorGroupHeader.tabsBackground": "#0f1421",
+        "tab.activeBackground": "#141829",
+        "tab.activeForeground": "#d4e4f7",
+        "tab.border": "#0f1421",
+        "tab.activeBorderTop": "#00d4b8",
+        "tab.inactiveBackground": "#0f1421",
+        "tab.inactiveForeground": "#6b7a9f",
+        "tab.hoverBackground": "#1a1f2e",
+
+        // РЕДАКТОР - Мягче
+        "editor.foreground": "#d4e4f7",
+        "editor.background": "#141829",
+        "editorLineNumber.foreground": "#6b7a9f",
+        "editorLineNumber.activeForeground": "#a8b8d0",
+        "editor.selectionBackground": "#00d4b820",
+        "editor.selectionHighlightBackground": "#00d4b815",
+        "editor.foldBackground": "#7a25d110",
+        "editor.wordHighlightBackground": "#4a9bd115",
+        "editor.wordHighlightStrongBackground": "#00d4b818",
+        "editor.findMatchBackground": "#c45a9630",
+        "editor.findMatchHighlightBackground": "#c45a9618",
+        "editor.findRangeHighlightBackground": "#7a25d110",
+        "editor.hoverHighlightBackground": "#00d4b810",
+        "editor.lineHighlightBorder": "#6b7a9f10",
+        "editorLink.activeForeground": "#4a9bd1",
+        "editor.rangeHighlightBackground": "#00d4b808",
+
+        // ПОДСВЕТКА СКОБОК - Мягче
+        "editorBracketHighlight.foreground1": "#00d4b8",
+        "editorBracketHighlight.foreground2": "#7a25d1",
+        "editorBracketHighlight.foreground3": "#c45a96",
+        "editorBracketHighlight.foreground4": "#4a9bd1",
+        "editorBracketHighlight.foreground5": "#e8f0ff",
+        "editorBracketHighlight.foreground6": "#a8b8d0",
+        "editorBracketHighlight.unexpectedBracket.foreground": "#c45a96",
+
+        // ОБЗОРНАЯ ЛИНЕЙКА - Мягче
+        "editorOverviewRuler.border": "#0f1421",
+        "editorOverviewRuler.selectionHighlightForeground": "#00d4b8",
+        "editorOverviewRuler.wordHighlightForeground": "#4a9bd1",
+        "editorOverviewRuler.wordHighlightStrongForeground": "#00d4b8",
+        "editorOverviewRuler.modifiedForeground": "#7a25d1",
+        "editorOverviewRuler.addedForeground": "#00d4b8",
+        "editorOverviewRuler.deletedForeground": "#c45a96",
+        "editorOverviewRuler.errorForeground": "#c45a96",
+        "editorOverviewRuler.warningForeground": "#e8f0ff",
+        "editorOverviewRuler.infoForeground": "#4a9bd1",
+
+        // ОШИБКИ И ПРЕДУПРЕЖДЕНИЯ - Мягче
+        "editorError.foreground": "#c45a96",
+        "editorWarning.foreground": "#e8f0ff",
+        "editorInfo.foreground": "#4a9bd1",
+        "editorGutter.modifiedBackground": "#7a25d1",
+        "editorGutter.addedBackground": "#00d4b8",
+        "editorGutter.deletedBackground": "#c45a96",
+
+        // GIT ДЕКОРАЦИИ - Мягче
+        "gitDecoration.modifiedResourceForeground": "#7a25d1",
+        "gitDecoration.deletedResourceForeground": "#c45a96",
+        "gitDecoration.untrackedResourceForeground": "#00d4b8",
+        "gitDecoration.ignoredResourceForeground": "#6b7a9f",
+        "gitDecoration.conflictingResourceForeground": "#e8f0ff",
+
+        // DIFF РЕДАКТОР - Мягче
+        "diffEditor.insertedTextBackground": "#00d4b815",
+        "diffEditor.removedTextBackground": "#c45a9615",
+
+        // ВИДЖЕТЫ РЕДАКТОРА - Мягче
+        "editorWidget.background": "#1a1f2e",
+        "editorWidget.border": "#6b7a9f",
+        "editorSuggestWidget.background": "#1a1f2e",
+        "editorSuggestWidget.foreground": "#d4e4f7",
+        "editorSuggestWidget.selectedBackground": "#00d4b815",
+        "editorHoverWidget.background": "#1a1f2e",
+        "editorHoverWidget.border": "#00d4b8",
+
+        // ПАНЕЛИ - Мягче
+        "panel.background": "#0f1421",
+        "panel.border": "#6b7a9f15",
+        "panelTitle.activeBorder": "#00d4b8",
+        "panelTitle.activeForeground": "#d4e4f7",
+        "panelTitle.inactiveForeground": "#6b7a9f",
+
+        // СТАТУС БАР - Мягче
+        "statusBar.background": "#0f1421",
+        "statusBar.foreground": "#a8b8d0",
+        "statusBar.debuggingBackground": "#7a25d1",
+        "statusBar.debuggingForeground": "#e8f0ff",
+        "statusBar.noFolderBackground": "#0f1421",
+        "statusBar.noFolderForeground": "#6b7a9f",
+        "statusBarItem.prominentBackground": "#00d4b8",
+        "statusBarItem.prominentForeground": "#141829",
+        "statusBarItem.prominentHoverBackground": "#40e6c7",
+        "statusBarItem.remoteForeground": "#141829",
+        "statusBarItem.remoteBackground": "#4a9bd1",
+
+        // ЗАГОЛОВОК ОКНА - Мягче
+        "titleBar.activeBackground": "#0f1421",
+        "titleBar.activeForeground": "#d4e4f7",
+        "titleBar.inactiveBackground": "#0f1421",
+        "titleBar.inactiveForeground": "#6b7a9f",
+
+        // НАСТРОЙКИ - Мягче
+        "settings.headerForeground": "#d4e4f7",
+        "settings.modifiedItemIndicator": "#7a25d1",
+        "settings.dropdownBackground": "#1a1f2e",
+        "settings.dropdownForeground": "#d4e4f7",
+        "settings.dropdownBorder": "#6b7a9f",
+        "settings.checkboxBackground": "#1a1f2e",
+        "settings.checkboxForeground": "#00d4b8",
+        "settings.checkboxBorder": "#6b7a9f",
+        "settings.textInputBackground": "#1a1f2e",
+        "settings.textInputForeground": "#d4e4f7",
+        "settings.textInputBorder": "#6b7a9f",
+        "settings.numberInputBackground": "#1a1f2e",
+        "settings.numberInputForeground": "#d4e4f7",
+        "settings.numberInputBorder": "#6b7a9f",
+
+        // ХЛЕБНЫЕ КРОШКИ - Мягче
+        "breadcrumb.foreground": "#6b7a9f",
+        "breadcrumb.background": "#141829",
+        "breadcrumb.focusForeground": "#d4e4f7",
+        "breadcrumb.activeSelectionForeground": "#00d4b8",
+        "breadcrumbPicker.background": "#1a1f2e"
+    },
+    "tokenColors": [
+        // БАЗОВОЕ ФОРМАТИРОВАНИЕ
+        {
+            "scope": ["emphasis"],
+            "settings": {"fontStyle": "italic"}
+        },
+        {
+            "scope": ["strong"],
+            "settings": {"fontStyle": "bold"}
+        },
+        {
+            "scope": ["header"],
+            "settings": {"foreground": "#00d4b8"}
+        },
+
+        // КОММЕНТАРИИ - Мягче
+        {
+            "name": "Comments",
+            "scope": ["comment", "punctuation.definition.comment"],
+            "settings": {"foreground": "#6b7a9f", "fontStyle": "italic"}
+        },
+        {
+            "name": "JSDoc keywords",
+            "scope": ["comment keyword.codetag.notation", "comment.block.documentation keyword"],
+            "settings": {"foreground": "#a8b8d0"}
+        },
+
+        // СТРОКИ - Мягче
+        {
+            "name": "Strings",
+            "scope": ["string"],
+            "settings": {"foreground": "#00d4b8"}
+        },
+        {
+            "name": "String quotes",
+            "scope": ["punctuation.definition.string.begin", "punctuation.definition.string.end"],
+            "settings": {"foreground": "#4a9bd1"}
+        },
+
+        // ЧИСЛА И КОНСТАНТЫ - Мягче
+        {
+            "name": "Constants",
+            "scope": ["constant", "variable.other.constant"],
+            "settings": {"foreground": "#e8f0ff"}
+        },
+        {
+            "name": "Numbers",
+            "scope": ["constant.numeric"],
+            "settings": {"foreground": "#c45a96"}
+        },
+
+        // КЛЮЧЕВЫЕ СЛОВА - Мягче
+        {
+            "name": "Keywords",
+            "scope": ["keyword", "storage.type", "storage.modifier"],
+            "settings": {"foreground": "#7a25d1", "fontStyle": "bold"}
+        },
+
+        // ФУНКЦИИ - Мягче
+        {
+            "name": "Function names",
+            "scope": ["entity.name.function", "meta.function-call"],
+            "settings": {"foreground": "#4a9bd1"}
+        },
+        {
+            "name": "Function parameters",
+            "scope": ["variable.parameter"],
+            "settings": {"foreground": "#a8b8d0", "fontStyle": "italic"}
+        },
+
+        // КЛАССЫ И ТИПЫ - Мягче
+        {
+            "name": "Classes",
+            "scope": ["entity.name.type.class", "entity.name.class"],
+            "settings": {"foreground": "#e8f0ff"}
+        },
+        {
+            "name": "Types",
+            "scope": ["entity.name.type", "storage.type"],
+            "settings": {"foreground": "#7a25d1", "fontStyle": "italic"}
+        },
+
+        // ПЕРЕМЕННЫЕ - Мягче
+        {
+            "name": "Variables",
+            "scope": ["variable"],
+            "settings": {"foreground": "#d4e4f7"}
+        },
+        {
+            "name": "Language variables",
+            "scope": ["variable.language"],
+            "settings": {"foreground": "#c45a96", "fontStyle": "italic"}
+        },
+
+        // HTML/XML - Мягче
+        {
+            "name": "HTML tags",
+            "scope": ["entity.name.tag"],
+            "settings": {"foreground": "#7a25d1"}
+        },
+        {
+            "name": "HTML attributes",
+            "scope": ["entity.other.attribute-name"],
+            "settings": {"foreground": "#4a9bd1", "fontStyle": "italic"}
+        },
+
+        // CSS - Мягче
+        {
+            "name": "CSS selectors",
+            "scope": ["meta.selector"],
+            "settings": {"foreground": "#00d4b8"}
+        },
+        {
+            "name": "CSS properties",
+            "scope": ["support.type.property-name"],
+            "settings": {"foreground": "#4a9bd1"}
+        },
+
+        // ОПЕРАТОРЫ И ПУНКТУАЦИЯ - Мягче
+        {
+            "name": "Operators",
+            "scope": ["keyword.operator"],
+            "settings": {"foreground": "#c45a96"}
+        },
+        {
+            "name": "Punctuation",
+            "scope": ["punctuation"],
+            "settings": {"foreground": "#a8b8d0"}
+        },
+
+        // РЕГУЛЯРНЫЕ ВЫРАЖЕНИЯ - Мягче
+        {
+            "name": "RegExp",
+            "scope": ["string.regexp"],
+            "settings": {"foreground": "#e8f0ff"}
+        },
+
+        // MARKDOWN - Мягче
+        {
+            "name": "Markdown headings",
+            "scope": ["markup.heading"],
+            "settings": {"foreground": "#00d4b8", "fontStyle": "bold"}
+        },
+        {
+            "name": "Markdown bold",
+            "scope": ["markup.bold"],
+            "settings": {"foreground": "#e8f0ff", "fontStyle": "bold"}
+        },
+        {
+            "name": "Markdown italic",
+            "scope": ["markup.italic"],
+            "settings": {"foreground": "#a8b8d0", "fontStyle": "italic"}
+        },
+        {
+            "name": "Markdown links",
+            "scope": ["markup.underline.link"],
+            "settings": {"foreground": "#4a9bd1"}
+        },
+        {
+            "name": "Markdown code",
+            "scope": ["markup.inline.raw"],
+            "settings": {"foreground": "#7a25d1"}
+        },
+
+        // НЕДЕЙСТВИТЕЛЬНЫЙ КОД - Мягче
+        {
+            "name": "Invalid",
+            "scope": ["invalid"],
+            "settings": {"foreground": "#c45a96", "fontStyle": "underline"}
+        },
+        {
+            "name": "Deprecated",
+            "scope": ["invalid.deprecated"],
+            "settings": {"foreground": "#6b7a9f", "fontStyle": "strikethrough"}
+        }
+    ]
+}
