@@ -49,21 +49,21 @@ A gentle winter variant perfect for extended coding sessions with softer aurora 
 ## 🎨 Color Palette
 
 ### Primary Colors
-- **Background Primary**: `#0b0f1c` - Безлунная полярная ночь
-- **Background Secondary**: `#0e1224` - Фон с лёгким сине-фиолетовым сдвигом  
-- **Background Tertiary**: `#070a14` - Почти чёрный для максимального контраста
+- **Background Primary**: `#0b0f1c` - Moonless polar night
+- **Background Secondary**: `#0e1224` - Background with a slight blue-purple shift
+- **Background Tertiary**: `#070a14` - Almost black for maximum contrast
 
 ### Text Colors
-- **Text Primary**: `#e8f4ff` - Ледяной белый с синевой
-- **Text Secondary**: `#b8c8e0` - Мягкий лавандово-голубой
-- **Text Muted**: `#7a8cb0` - Приглушённый арктический серый
+- **Text Primary**: `#e8f4ff` - Icy white with a hint of blue
+- **Text Secondary**: `#b8c8e0` - Soft lavender blue
+- **Text Muted**: `#7a8cb0` - Muted arctic gray
 
 ### Accent Colors
-- **Aurora Green**: `#00f5d4` - Бирюзово-неоновый (сияние над ледником)
-- **Polar Violet**: `#8a2be2` - Фиолетовый как всполох северного сияния
-- **Starlight**: `#f0f8ff` - Холодный белый, как звёзды
-- **Icicle Blue**: `#5dade2` - Прозрачный голубой лёд
-- **Midnight Pink**: `#d16ba5` - Редкий розовый оттенок полярного сияния
+- **Aurora Green**: `#00f5d4` - Turquoise neon (glow above the glacier)
+- **Polar Violet**: `#8a2be2` - Violet like a flash of northern lights
+- **Starlight**: `#f0f8ff` - Cold white like stars
+- **Icicle Blue**: `#5dade2` - Transparent blue ice
+- **Midnight Pink**: `#d16ba5` - Rare pink hue of the aurora borealis
 
 ## 📸 Screenshots
 
